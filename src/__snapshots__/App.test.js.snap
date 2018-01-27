@@ -4,8 +4,12 @@ exports[`renders the joke app 1`] = `
 <div
   className="App"
 >
-  <h2>
-    Programmers count from 0...
-  </h2>
+  <h2
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Q: What is a programmer's favourite hangout place?<br><br>R: Foo Bar",
+      }
+    }
+  />
 </div>
 `;
