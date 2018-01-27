@@ -11,5 +11,16 @@ exports[`renders the joke app 1`] = `
       }
     }
   />
+  <div
+    className="claps"
+  >
+    <Component
+      className="claps__ClapIcon"
+    />
+    <p>
+      483
+       claps
+    </p>
+  </div>
 </div>
 `;
