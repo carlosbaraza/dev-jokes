@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: #aaffaa;
+  background: #222;
+  font-family: monospace;
+}
+
+.App h2:after {
+  content: "\2588";
+  animation: 1s fade infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
