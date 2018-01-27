@@ -4,9 +4,7 @@ import "./App.css";
 import jokes from "./jokes.json";
 import { ClapIcon } from "./clap-icon";
 
-const sortedJokes = jokes.sort(
-  (j1, j2) => (j1.createdAt < j2.createdAt ? 1 : -1)
-);
+const sortedJokes = jokes.sort((j1, j2) => (j1.claps < j2.claps ? 1 : -1));
 
 const joke = sortedJokes[0];
 

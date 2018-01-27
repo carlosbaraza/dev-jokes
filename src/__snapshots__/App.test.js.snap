@@ -7,7 +7,7 @@ exports[`renders the joke app 1`] = `
   <h2
     dangerouslySetInnerHTML={
       Object {
-        "__html": "Q: What is a programmer's favourite hangout place?<br><br>R: Foo Bar",
+        "__html": "Q: Why do Java programmers have to wear glasses?<br><br>R: Because they don't C#",
       }
     }
   />
@@ -18,7 +18,7 @@ exports[`renders the joke app 1`] = `
       className="claps__ClapIcon"
     />
     <p>
-      483
+      953
        claps
     </p>
   </div>
