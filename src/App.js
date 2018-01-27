@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import jokes from "./jokes.json";
+import { ClapIcon } from "./clap-icon";
 
 const sortedJokes = jokes.sort(
   (j1, j2) => (j1.createdAt < j2.createdAt ? 1 : -1)
@@ -18,6 +19,10 @@ class App extends Component {
             __html: joke.body
           }}
         />
+        <div className="claps">
+          <ClapIcon className="claps__ClapIcon" />
+          <p>{joke.claps} claps</p>
+        </div>
       </div>
     );
   }

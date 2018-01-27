@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
   color: #aaffaa;
@@ -24,4 +25,24 @@
   100% {
     opacity: 0;
   }
+}
+
+.App .claps {
+  color: white;
+  margin-top: 30px;
+}
+
+.App .claps__ClapIcon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  overflow: visible;
+  fill: white;
+  width: 50px;
+  height: 50px;
+}
+
+.App .claps__ClapIcon:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
