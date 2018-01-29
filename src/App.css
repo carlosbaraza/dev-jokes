@@ -11,7 +11,8 @@
 }
 
 .App h2 {
-  white-space: pre;
+  white-space: pre-wrap;
+  margin: 20px;
 }
 
 .App h2:after {
