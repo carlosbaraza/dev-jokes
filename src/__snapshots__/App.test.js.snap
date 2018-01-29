@@ -12,15 +12,25 @@ exports[`renders the joke app 1`] = `
     }
   />
   <div
-    className="claps"
+    className="controls"
   >
-    <Component
-      className="claps__ClapIcon"
-    />
-    <p>
-      953
-       claps
-    </p>
+    <div
+      className="claps"
+    >
+      <Component
+        className="claps__ClapIcon controls__button"
+      />
+      <p>
+        953
+         claps
+      </p>
+    </div>
+    <div
+      className="moar controls__button"
+      onClick={[Function]}
+    >
+      MOAR!
+    </div>
   </div>
 </div>
 `;
