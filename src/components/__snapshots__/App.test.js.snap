@@ -7,7 +7,7 @@ exports[`renders the joke app 1`] = `
   <h2
     dangerouslySetInnerHTML={
       Object {
-        "__html": "Q: Why do Java programmers have to wear glasses?<br><br>R: Because they don't C#",
+        "__html": "Why do Java developers wear glasses?<br><br>Because they don't C#",
       }
     }
   />
