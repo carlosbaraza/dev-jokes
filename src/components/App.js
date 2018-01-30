@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { ClapIcon } from "./clap-icon";
-import { fetchJoke } from "./services/jokes";
+import { ClapIcon } from "./ClapIcon";
+import { fetchJoke } from "../services/jokes";
 
 class App extends Component {
   constructor(props) {
