@@ -15,17 +15,6 @@ exports[`renders the joke app 1`] = `
     className="controls"
   >
     <div
-      className="claps"
-    >
-      <Component
-        className="claps__ClapIcon controls__button"
-      />
-      <p>
-        953
-         claps
-      </p>
-    </div>
-    <div
       className="moar controls__button"
       onClick={[Function]}
     >

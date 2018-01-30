@@ -35,10 +35,10 @@ class App extends Component {
           }}
         />
         <div className="controls">
-          <div className="claps">
+          {/* <div className="claps">
             <ClapIcon className="claps__ClapIcon controls__button" />
             <p>{joke.claps} claps</p>
-          </div>
+          </div> */}
 
           <div className="moar controls__button" onClick={this.nextJoke}>
             MOAR!
